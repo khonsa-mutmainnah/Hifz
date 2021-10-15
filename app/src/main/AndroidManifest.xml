@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hifz">
         <activity
+            android:name=".murajaah"
+            android:exported="true" />
+        <activity
+            android:name=".tilawah"
+            android:exported="true" />
+        <activity
+            android:name=".ziyadahFour"
+            android:exported="true" />
+        <activity
+            android:name=".ziyadahThree"
+            android:exported="true" />
+        <activity
+            android:name=".ziyadahTwo"
+            android:exported="true" />
+        <activity
+            android:name=".ziyadahOne"
+            android:exported="true" />
+        <activity
+            android:name=".beranda"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
