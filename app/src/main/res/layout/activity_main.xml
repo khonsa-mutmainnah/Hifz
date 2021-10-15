@@ -69,7 +69,7 @@
         android:layout_marginTop="90dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#B6C49D"
-        android:text="Button"
+        android:text="Daftar"
         android:onClick="intent" />
 
 
