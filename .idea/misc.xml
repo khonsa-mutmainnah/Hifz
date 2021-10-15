@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_beranda.xml" value="0.259375" />
         <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_loginapp.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_murajaah.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_tilawah.xml" value="0.259375" />
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_ziyadah_four.xml" value="0.259375" />
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_ziyadah_one.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_ziyadah_three.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_ziyadah_two.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_ziyaddah_two.xml" value="0.16666666666666666" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
       </map>
