@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="98dp"
-        android:layout_height="118dp"
+        android:layout_width="137dp"
+        android:layout_height="147dp"
         app:srcCompat="@drawable/logo" />
 
     <Button
@@ -22,7 +22,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="60dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#B6C49D"
+        android:backgroundTint="#5F6552"
         android:text="ZIYADAH"
         android:onClick="intent" />
 
@@ -33,7 +33,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#B6C49D"
+        android:backgroundTint="#5F6552"
         android:text="MURAJAAH"
         android:onClick="intent" />
 
@@ -44,7 +44,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#B6C49D"
+        android:backgroundTint="#5F6552"
         android:text="TILAWAH"
         android:onClick="intent" />
 
@@ -55,7 +55,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#B6C49D"
+        android:backgroundTint="#5F6552"
         android:text="EVALUASI"
         android:onClick="intent" />
 
@@ -66,7 +66,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#B6C49D"
+        android:backgroundTint="#5F6552"
         android:text="PROFIL"
         android:onClick="intent" />
 </LinearLayout>
