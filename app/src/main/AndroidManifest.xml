@@ -10,22 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hifz">
         <activity
+            android:name=".ayat"
+            android:exported="true" />
+        <activity
+            android:name=".Ayat"
+            android:exported="true"
+            android:label="@string/title_activity_ayat"
+            android:theme="@style/Theme.Hifz.NoActionBar" />
+        <activity
+            android:name=".surat"
+            android:exported="true" />
+        <activity
             android:name=".murajaah"
             android:exported="true" />
         <activity
             android:name=".tilawah"
-            android:exported="true" />
-        <activity
-            android:name=".ziyadahFour"
-            android:exported="true" />
-        <activity
-            android:name=".ziyadahThree"
-            android:exported="true" />
-        <activity
-            android:name=".ziyadahTwo"
-            android:exported="true" />
-        <activity
-            android:name=".ziyadahOne"
             android:exported="true" />
         <activity
             android:name=".beranda"
@@ -42,6 +41,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
