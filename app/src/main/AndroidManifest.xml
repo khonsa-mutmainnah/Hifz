@@ -11,12 +11,8 @@
         android:theme="@style/Theme.Hifz">
         <activity
             android:name=".ayat"
-            android:exported="true" />
-        <activity
-            android:name=".Ayat"
             android:exported="true"
-            android:label="@string/title_activity_ayat"
-            android:theme="@style/Theme.Hifz.NoActionBar" />
+            android:configChanges="orientation|screenSize"/>
         <activity
             android:name=".surat"
             android:exported="true" />

@@ -24,7 +24,7 @@
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
         android:text="ZIYADAH"
-        android:onClick="intent" />
+        android:onClick=""/>
 
     <Button
         android:id="@+id/murajaah"
