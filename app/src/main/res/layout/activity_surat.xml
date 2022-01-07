@@ -22,7 +22,7 @@
             android:fontFamily="@font/roboto_medium"
             android:linksClickable="true"
             android:text="Surat"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textColor="#5F6552"
             android:textAlignment="center"/>
 
@@ -37,7 +37,7 @@
             android:text="Bookmark"
             android:textAlignment="center"
             android:textColor="#5F6552"
-            android:textSize="30sp" />
+            android:textSize="28sp" />
     </LinearLayout>
 
     <TextView
@@ -49,7 +49,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-FATIHAH"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:onClick="intent"/>
 
     <TextView
@@ -60,7 +60,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-BAQARAH"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat3"
         android:layout_width="match_parent"
@@ -69,7 +69,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT ALI-IMRAN"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat4"
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AN-NISA"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat5"
         android:layout_width="match_parent"
@@ -87,7 +87,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-MAIDAH"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat6"
         android:layout_width="match_parent"
@@ -96,7 +96,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-AN'AM"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat7"
         android:layout_width="match_parent"
@@ -105,7 +105,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-A'RAF"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat8"
         android:layout_width="match_parent"
@@ -114,7 +114,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-ANFAL"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat9"
         android:layout_width="match_parent"
@@ -123,7 +123,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AT-TAUBAH"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
     <TextView
         android:id="@+id/surat10"
         android:layout_width="match_parent"
@@ -132,5 +132,5 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT YUNUS"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
 </LinearLayout>
