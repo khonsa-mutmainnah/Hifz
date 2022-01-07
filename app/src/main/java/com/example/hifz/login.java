@@ -71,19 +71,19 @@ public class login extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), beranda.class));
     }
 
-//    @Override
-//    public void onStart() {
-//        super.onStart();
-//        // Check if user is signed in (non-null) and update UI accordingly.
-//        FirebaseUser currentUser = mAuth.getCurrentUser();
-//        if(currentUser != null){
-//            reload();
-//        }
-//    }
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        if(currentUser != null){
+            reload();
+        }
+    }
 
 
-//    public void beranda (View view){
-//        Intent login = new Intent(login.this, beranda.class);
-//        startActivity(login);
-//    }
+    public void beranda (View view){
+        Intent login = new Intent(login.this, beranda.class);
+        startActivity(login);
+    }
 }
