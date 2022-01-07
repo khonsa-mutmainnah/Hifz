@@ -9,12 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hifz">
-        <activity
-            android:name=".RecordingsActivity"
-            android:exported="true" />
-        <activity
-            android:name=".AudioRecorderActivity"
-            android:exported="true" />
+
         <activity
             android:name=".ayat"
             android:configChanges="orientation|screenSize"

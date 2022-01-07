@@ -49,7 +49,7 @@ public class ayat extends AppCompatActivity {
     }
 
     public void rekam(){
-        Intent intent = new Intent(this, AudioRecorderActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, AudioRecorderActivity.class);
+//        startActivity(intent);
     }
 }
