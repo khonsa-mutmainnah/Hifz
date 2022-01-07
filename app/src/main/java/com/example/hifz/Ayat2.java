@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ayat extends AppCompatActivity {
+public class Ayat2 extends AppCompatActivity {
 
     private TextView angka;
     private int a;
@@ -22,7 +22,7 @@ public class ayat extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ayat);
+        setContentView(R.layout.activity_ayat2);
 
         angka = findViewById(R.id.angka);
         button = findViewById(R.id.klik);
