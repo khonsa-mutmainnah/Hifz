@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         editEmail = findViewById(R.id.email);
         editPassword = findViewById(R.id.password);
         btnRegister = findViewById(R.id.btnregister);
+        btnLogin = findViewById(R.id.btnlogin);
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
@@ -82,15 +83,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), login.class));
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
-            reload();
-        }
-    }
+//    @Override
+//    public void onStart() {
+//        super.onStart();
+//        // Check if user is signed in (non-null) and update UI accordingly.
+//        FirebaseUser currentUser = mAuth.getCurrentUser();
+//        if(currentUser != null){
+//            reload();
+//        }
+//    }
 
     public void intent (View view){
         Intent i = new Intent(MainActivity.this, login.class);

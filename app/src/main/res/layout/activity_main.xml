@@ -79,9 +79,9 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="90dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#B6C49D"
+        android:backgroundTint="@color/cardview_dark_background"
         android:text="Masuk"
-        android:onClick="masuk" />
+        android:onClick="intent" />
 
 
 </LinearLayout>

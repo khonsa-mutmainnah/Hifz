@@ -21,7 +21,7 @@ public class ayat extends AppCompatActivity {
     }
 
     public void tap(View view){
-        int n = a+1;
-        angka.setText(n);
+        a= a+1;
+        angka.setText(a);
     }
 }
