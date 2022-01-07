@@ -33,8 +33,14 @@ public class ayat extends AppCompatActivity {
         });
     }
 
+<<<<<<< HEAD
     public void tap(){
         a++;
         angka.setText(Integer.toString(a));
+=======
+    public void tap(View view){
+        a= a+1;
+        angka.setText(a);
+>>>>>>> 96c0f5a92342fe93729f1bc7894f4456c662652e
     }
 }
