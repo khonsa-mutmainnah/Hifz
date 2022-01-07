@@ -36,12 +36,11 @@
         app:layout_constraintTop_toBottomOf="@+id/SURAT" />
 
     <ImageButton
-        android:id="@+id/start"
+        android:id="@+id/klik"
         android:layout_width="198dp"
         android:layout_height="195dp"
         android:layout_marginTop="148dp"
         android:background="@drawable/round_background"
-        android:onClick="tap"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,9 +52,9 @@
         android:layout_height="wrap_content"
         android:text="0"
         android:textSize="90sp"
-        app:layout_constraintBottom_toBottomOf="@+id/start"
-        app:layout_constraintEnd_toEndOf="@+id/start"
-        app:layout_constraintStart_toStartOf="@+id/start"
-        app:layout_constraintTop_toTopOf="@+id/start" />
+        app:layout_constraintBottom_toBottomOf="@+id/klik"
+        app:layout_constraintEnd_toEndOf="@+id/klik"
+        app:layout_constraintStart_toStartOf="@+id/klik"
+        app:layout_constraintTop_toTopOf="@+id/klik" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

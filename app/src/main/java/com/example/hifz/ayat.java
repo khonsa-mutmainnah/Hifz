@@ -4,12 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ayat extends AppCompatActivity {
 
     private TextView angka;
     private int a;
+    private ImageButton button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +21,20 @@ public class ayat extends AppCompatActivity {
         setContentView(R.layout.activity_ayat2);
 
         angka = findViewById(R.id.angka);
-        int a = 0;
+        button = findViewById(R.id.klik);
+
+        a = 0;
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tap();
+            }
+        });
     }
 
-    public void tap(View view){
-        int n = a+1;
-        angka.setText(n);
+    public void tap(){
+        a++;
+        angka.setText(Integer.toString(a));
     }
 }
