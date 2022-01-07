@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class login extends AppCompatActivity {
     private EditText editEmail, editPassword;
-    private Button btnLogin;
+    private Button btnLogin, btnRegister;
     private ProgressDialog progressDialog;
     private FirebaseAuth mAuth;
 
@@ -30,6 +30,7 @@ public class login extends AppCompatActivity {
         editEmail = findViewById(R.id.email);
         editPassword = findViewById(R.id.password);
         btnLogin = findViewById(R.id.btnbutton);
+        btnRegister = findViewById(R.id.btnregister);
 
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
@@ -43,6 +44,12 @@ public class login extends AppCompatActivity {
                 login(editEmail.getText().toString(), editPassword.getText().toString());
             }else {
                 Toast.makeText(getApplicationContext(), "Silahkan isi semua data !", Toast.LENGTH_SHORT).show();
+            }
+        });
+        btnRegister.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                btnRegister();
             }
         });
     }
@@ -85,5 +92,9 @@ public class login extends AppCompatActivity {
     public void beranda (View view){
         Intent login = new Intent(login.this, beranda.class);
         startActivity(login);
+    }
+    public void btnRegister(){
+        Intent intent = new Intent(login.this, MainActivity.class);
+        startActivity(intent);
     }
 }

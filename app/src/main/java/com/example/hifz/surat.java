@@ -27,7 +27,8 @@ public class surat extends AppCompatActivity {
     }
 
     public void openAyat(){
-        Intent intent = new Intent(this, ayat.class);
+        Intent intent = new Intent(surat.this, ayat.class);
         startActivity(intent);
     }
+
 }

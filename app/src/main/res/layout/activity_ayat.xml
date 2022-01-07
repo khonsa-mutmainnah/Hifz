@@ -84,6 +84,7 @@
         app:layout_constraintVertical_bias="0.135" />
 
     <ImageButton
+        android:id="@+id/next"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:background="@drawable/ic_next"
@@ -95,6 +96,7 @@
         app:layout_constraintVertical_bias="0.527" />
 
     <ImageButton
+        android:id="@+id/previous"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/ic_prev"
