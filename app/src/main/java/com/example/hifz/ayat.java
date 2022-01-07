@@ -2,6 +2,7 @@ package com.example.hifz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +15,7 @@ public class ayat extends AppCompatActivity {
     private TextView angka;
     private int a;
     private ImageButton button;
+    private Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class ayat extends AppCompatActivity {
 
         angka = findViewById(R.id.angka);
         button = findViewById(R.id.klik);
+        btn = findViewById(R.id.rekam);
 
         a = 0;
 
@@ -31,10 +34,22 @@ public class ayat extends AppCompatActivity {
                 tap();
             }
         });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                rekam();
+            }
+        });
     }
 
     public void tap(){
         a++;
         angka.setText(Integer.toString(a));
+    }
+
+    public void rekam(){
+        Intent intent = new Intent(this, AudioRecorderActivity.class);
+        startActivity(intent);
     }
 }

@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hifz">
         <activity
+            android:name=".RecordingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AudioRecorderActivity"
+            android:exported="true" />
+        <activity
             android:name=".ayat"
-            android:exported="true"
-            android:configChanges="orientation|screenSize"/>
+            android:configChanges="orientation|screenSize"
+            android:exported="true" />
         <activity
             android:name=".surat"
             android:exported="true" />

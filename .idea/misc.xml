@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_ayat2.xml" value="0.12708333333333333" />
-        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_beranda.xml" value="0.1" />
-        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/faqih/AndroidStudioProjects/Hifz/app/src/main/res/layout/activity_surat.xml" value="0.12708333333333333" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/drawable/round_background.xml" value="0.2203125" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/drawable/round_shape.xml" value="0.10925925925925926" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_audio_recorder.xml" value="0.1" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_ayat2.xml" value="0.18795289855072464" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_beranda.xml" value="0.22" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_murajaah.xml" value="0.20416666666666666" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_recordings.xml" value="0.20416666666666666" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_surat.xml" value="0.20416666666666666" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_tilawah.xml" value="0.1956521739130435" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_ziyadah_four.xml" value="0.1956521739130435" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/activity_ziyadah_one.xml" value="0.1956521739130435" />
+        <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/layout/recording_list.xml" value="0.1" />
       </map>
     </option>
   </component>
