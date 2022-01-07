@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class ayat extends AppCompatActivity {
+class ayat extends AppCompatActivity {
 
     private TextView angka;
     private int a;

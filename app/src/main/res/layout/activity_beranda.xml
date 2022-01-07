@@ -23,8 +23,7 @@
         android:layout_marginTop="60dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
-        android:text="ZIYADAH"
-        android:onClick=""/>
+        android:text="ZIYADAH" />
 
     <Button
         android:id="@+id/murajaah"
@@ -34,8 +33,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
-        android:text="MURAJAAH"
-        android:onClick="intent" />
+        android:text="MURAJAAH" />
 
     <Button
         android:id="@+id/tilawah"
@@ -45,8 +43,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
-        android:text="TILAWAH"
-        android:onClick="intent" />
+        android:text="TILAWAH" />
 
     <Button
         android:id="@+id/evaluasi"
@@ -56,8 +53,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
-        android:text="EVALUASI"
-        android:onClick="intent" />
+        android:text="EVALUASI" />
 
     <Button
         android:id="@+id/profil"
@@ -67,7 +63,6 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
-        android:text="PROFIL"
-        android:onClick="intent" />
+        android:text="PROFIL" />
 </LinearLayout>
 

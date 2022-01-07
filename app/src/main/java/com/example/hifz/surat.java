@@ -6,17 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class surat extends AppCompatActivity {
 
-    Button button;
+    TextView surat1;
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beranda);
+        setContentView(R.layout.activity_surat);
 
-        button = (Button) findViewById(R.id.surat1);
-        button.setOnClickListener(new View.OnClickListener(){
+        surat1 = findViewById(R.id.surat1);
+        surat1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 openAyat();
