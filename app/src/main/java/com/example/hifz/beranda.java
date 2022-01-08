@@ -50,7 +50,7 @@ public class beranda extends AppCompatActivity {
     }
 
     public void openSuratTilawah(){
-        Intent intent = new Intent(beranda.this, surat_tilawah.class);
+        Intent intent = new Intent(beranda.this, surat.class);
         startActivity(intent);
     }
 }

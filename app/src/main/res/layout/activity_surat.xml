@@ -49,8 +49,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-FATIHAH"
-        android:textSize="20sp"
-        android:onClick="intent"/>
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/surat2"
@@ -60,7 +59,7 @@
         android:paddingLeft="25dp"
         android:paddingTop="17dp"
         android:text="SURAT AL-BAQARAH"
-        android:textSize="20sp" />
+        android:textSize="20sp"/>
     <TextView
         android:id="@+id/surat3"
         android:layout_width="match_parent"
